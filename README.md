@@ -32,4 +32,4 @@ A React-based blog platform with dynamic routing using `react-router-dom`. The p
 * Blog content: `/blogs/:blogId` for details on each card route
 
 
-Feel free to visit the deployed site [here]()
+Feel free to visit the deployed site [here](https://guvi-blogs-dev-it.netlify.app) 🔗
