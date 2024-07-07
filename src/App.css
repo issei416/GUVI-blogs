@@ -1,0 +1,46 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.navbar {
+  height: 5rem;
+}
+
+.home {
+  min-height: 80vh;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  margin:0 1rem;
+}
+
+.nav-link:hover {
+  border : 1px solid green;
+  color: green;
+  border-radius: 10px;
+}
+
+.card {
+  text-decoration: none;
+}
+
+.activeLink {
+  background: rgb(165, 240, 165);
+  border:none;
+  border-bottom : 5px solid green
+}
+
+.pendingLink {
+  background: rgb(183, 241, 183);
+  border: white;
+}
+
+
+a {
+  text-decoration: none;;
+}
+
+
+
