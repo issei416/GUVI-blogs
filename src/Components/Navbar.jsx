@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import image from "../../public/assets/guvi-logo.png"
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg bg-success-subtle h-100">
           <div className="container-fluid h-100">
             <a className="navbar-brand col-1" href="#">
-              <img src="./assets/guvi-logo.png" alt="guvi logo" className="img-fluid"/>
+              <img src={image} alt="guvi logo" className="img-fluid"/>
             </a>
             <button
               className="navbar-toggler"
